@@ -1,0 +1,60 @@
+* {
+margin: 0;
+box-sizing: border-box;
+webkit-font-smoothing: antialiased;
+moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+  text-align: center;
+  padding-top: 275px;
+  background-image: url(https://i.ibb.co/bgJSkhp/vista-de-cima-composicao-de-frutas-diferentes-frescas-e-maduras-dentro-da-cesta-no-fundo-cinza-escur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+font-family: 'Spectral', serif;
+
+display: grid;
+place-content: center;
+
+}
+h1{
+  color: white;
+  
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  font-family: 'Beth Ellen', cursive;
+}
+h1 span{
+  color: rgb(120, 228, 228);
+}
+p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 72px;
+  color: white;
+  opacity: 0.9;
+ 
+}
+a{
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: white;
+  opacity: 0.8;
+
+}
+a:hover,
+
+.btn-primary{
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(120, 228, 228);
+  opacity: 0.9;
+}
